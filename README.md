@@ -57,12 +57,12 @@ The dataset has acquisition from kaggle [1] and is divided into 4 classes:
 
 ## 📈 Results
 
-| **Model**         | **Accuracy (%)** | **Loss**  |
-|--------------------|------------------|-----------|
-| YOLO              | 95.73           | 0.08      |
-| CNN               | 92.34           | 0.12      |
-| YOLO-XGBoost      | 94.13           | 0.10      |
-| CNN-XGBoost       | 93.67           | 0.11      |
+| **Model**         | **Accuracy (%)** | **Train Loss**  | ** Validate Loss |
+|--------------------|------------------|---------------|------------------|
+| YOLO              | 95.73           | 0.02164      | 0.78611         |
+| CNN               | 92              | 0.066        | 0.266           |
+| YOLO-XGBoost      | 92.36           | 0.0260       | 0.2624          |
+| CNN-XGBoost       | 94.13           | 0.0133       | 0.1762          |
 
 **Detailed metrics**, including confusion matrices and performance charts, are available in the `results/` folder.
 
