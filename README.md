@@ -68,6 +68,7 @@ The dataset has acquisition from kaggle [1] and is divided into 4 classes:
 - Amal Misfer Alqahtani
 - Amwaj Mohammed Alzahrani
 - Fai Abdulaziz Bin Onayq
+  
 Supervisor: Dr. Manal Khaled Alsabhan
 
 ## Refrences
