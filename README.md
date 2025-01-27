@@ -38,20 +38,16 @@ The dataset has acquisition from kaggle [1] and is divided into 4 classes:
 ## 🤖 Models
 
 ### 1. YOLO
-- **Framework**: PyTorch-based YOLOv8.
-- **Description**: State-of-the-art object detection model optimized for real-time performance.
+- **Description**: State-of-the-art detection model optimized for real-time performance.
 
 ### 2. CNN
-- **Framework**: Custom-built CNN architecture.
 - **Description**: Focused on feature extraction and classification for accident detection.
 
 ### 3. YOLO-XGBoost
 - **Description**: Combines YOLO’s feature extraction with XGBoost for improved classification performance.
 
 ### 4. CNN-XGBoost
-- **Description**: Uses CNN for feature extraction and XGBoost for decision-tree-based classification.
-
-### Model Directory Structure:
+- **Description**: Combines CNN’s feature extraction with XGBoost for improved classification performance.
 
 
 
