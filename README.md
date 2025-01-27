@@ -1,6 +1,6 @@
-# Real-Time Road Accident Detection System
+# Accident-Eye: Real-Time Road Accident Detection System Using Surveillance cameras.
 
-This repository contains the implementation of a **real-time road accident detection system** using surveillance cameras. The system is based on four different models: **YOLO, CNN**, and two hybrid approaches (**YOLO-XGBoost** and **CNN-XGBoost**). The project aims to enhance road safety by automating accident detection and severity classification.
+This repository contains the implementation of a **Accident-Eye**. The system is based on four different models: **YOLO, CNN**, and two hybrid approaches (**YOLO-XGBoost** and **CNN-XGBoost**). The project aims to enhance road safety by automating accident detection and severity classification.
 
 
 ## 📋 Table of Contents
