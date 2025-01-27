@@ -2,7 +2,6 @@
 
 This repository contains the implementation of a **real-time road accident detection system** using surveillance cameras. The system is based on four different models: **YOLO, CNN**, and two hybrid approaches (**YOLO-XGBoost** and **CNN-XGBoost**). The project aims to enhance road safety by automating accident detection and severity classification.
 
----
 
 ## 📋 Table of Contents
 
@@ -14,13 +13,11 @@ This repository contains the implementation of a **real-time road accident detec
 - [Contributors](#contributors)
 - [License](#license)
 
----
 
 ## 🛠️ Introduction
 
 Road accidents are a critical global issue, causing fatalities and long-term injuries. Delayed emergency response times exacerbate the problem. This project use **deep learning** and **hybrid techniques** to detect accidents in real-time using images captured by surveillance cameras.
 
----
 
 ## 📊 Dataset
 
@@ -56,7 +53,7 @@ The dataset has acquisition from kaggle [1] and is divided into 4 classes:
 
 ### Model Directory Structure:
 
----
+
 
 ## 📈 Results
 
@@ -69,7 +66,7 @@ The dataset has acquisition from kaggle [1] and is divided into 4 classes:
 
 **Detailed metrics**, including confusion matrices and performance charts, are available in the `results/` folder.
 
----
+
 ## 👥 Contributors
 - Aljohara Abdulhakeem Bin Dokhi
 - Amal Misfer Alqahtani
