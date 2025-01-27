@@ -1,1 +1,92 @@
-# Accident-Eye
+# Real-Time Road Accident Detection System
+
+This repository contains the implementation of a **real-time road accident detection system** using surveillance cameras. The system is based on four different models: **YOLO, CNN**, and two hybrid approaches (**YOLO-XGBoost** and **CNN-XGBoost**). The project aims to enhance road safety by automating accident detection and severity classification.
+
+---
+
+## 📋 Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Models](#models)
+- [Results](#results)
+- [Installation and Usage](#installation-and-usage)
+- [Contributors](#contributors)
+- [License](#license)
+
+---
+
+## 🛠️ Introduction
+
+Road accidents are a critical global issue, causing fatalities and long-term injuries. Delayed emergency response times exacerbate the problem. This project use **deep learning** and **hybrid techniques** to detect accidents in real-time using images captured by surveillance cameras.
+
+### Features:
+- **Real-time accident detection**
+- **Severity classification**:
+  - Minor
+  - Moderate
+  - Severe
+- Comparison of four approaches:
+  - **YOLO (You Only Look Once)**
+  - **CNN (Convolutional Neural Network)**
+  - **YOLO-XGBoost** (Hybrid of YOLO and XGBoost)
+  - **CNN-XGBoost** (Hybrid of CNN and XGBoost)
+
+---
+
+## 📊 Dataset
+
+The dataset is divided into:
+1. **Accident Scenarios**:
+   - Minor Impact
+   - Substantial Impact
+   - Critical Impact
+2. **Non-Accident Scenarios**
+
+### Preprocessing Steps:
+- **Resizing**: Images resized to 320x320 pixels.
+- **Augmentation**: Techniques include flipping, cropping, brightness adjustment, and noise addition.
+- **Balancing**: Class distribution was balanced using data augmentation to prevent bias.
+
+### Dataset Structure:
+
+---
+
+## 🤖 Models
+
+### 1. YOLO
+- **Framework**: PyTorch-based YOLOv8.
+- **Description**: State-of-the-art object detection model optimized for real-time performance.
+
+### 2. CNN
+- **Framework**: Custom-built CNN architecture.
+- **Description**: Focused on feature extraction and classification for accident detection.
+
+### 3. YOLO-XGBoost
+- **Description**: Combines YOLO’s feature extraction with XGBoost for improved classification performance.
+
+### 4. CNN-XGBoost
+- **Description**: Uses CNN for feature extraction and XGBoost for decision-tree-based classification.
+
+### Model Directory Structure:
+
+---
+
+## 📈 Results
+
+| **Model**         | **Accuracy (%)** | **Loss**  |
+|--------------------|------------------|-----------|
+| YOLO              | 95.73           | 0.08      |
+| CNN               | 92.34           | 0.12      |
+| YOLO-XGBoost      | 94.13           | 0.10      |
+| CNN-XGBoost       | 93.67           | 0.11      |
+
+**Detailed metrics**, including confusion matrices and performance charts, are available in the `results/` folder.
+
+---
+## 👥 Contributors
+- Aljohara Abdulhakeem Bin Dokhi
+- Amal Misfer Alqahtani
+- Amwaj Mohammed Alzahrani
+- Fai Abdulaziz Bin Onayq
+Supervisor: Dr. Manal Khaled Alsabhan
