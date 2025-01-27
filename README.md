@@ -57,7 +57,7 @@ The dataset has acquisition from kaggle [1] and is divided into 4 classes:
 
 ## 📈 Results
 
-| **Model**         | **Accuracy (%)** | **Train Loss**  | ** Validate Loss |
+| **Model**         | **Accuracy (%)** | **Train Loss**  | **Validate Loss** |
 |--------------------|------------------|---------------|------------------|
 | YOLO              | 95.73           | 0.02164      | 0.78611         |
 | CNN               | 92              | 0.066        | 0.266           |
