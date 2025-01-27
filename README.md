@@ -20,23 +20,11 @@ This repository contains the implementation of a **real-time road accident detec
 
 Road accidents are a critical global issue, causing fatalities and long-term injuries. Delayed emergency response times exacerbate the problem. This project use **deep learning** and **hybrid techniques** to detect accidents in real-time using images captured by surveillance cameras.
 
-### Features:
-- **Real-time accident detection**
-- **Severity classification**:
-  - Minor
-  - Moderate
-  - Severe
-- Comparison of four approaches:
-  - **YOLO (You Only Look Once)**
-  - **CNN (Convolutional Neural Network)**
-  - **YOLO-XGBoost** (Hybrid of YOLO and XGBoost)
-  - **CNN-XGBoost** (Hybrid of CNN and XGBoost)
-
 ---
 
 ## 📊 Dataset
 
-The dataset is divided into:
+The dataset has acquisition from kaggle [1] and is divided into 4 classes:
 1. **Accident Scenarios**:
    - Minor Impact
    - Substantial Impact
@@ -48,9 +36,7 @@ The dataset is divided into:
 - **Augmentation**: Techniques include flipping, cropping, brightness adjustment, and noise addition.
 - **Balancing**: Class distribution was balanced using data augmentation to prevent bias.
 
-### Dataset Structure:
 
----
 
 ## 🤖 Models
 
@@ -90,3 +76,6 @@ The dataset is divided into:
 - Amwaj Mohammed Alzahrani
 - Fai Abdulaziz Bin Onayq
 Supervisor: Dr. Manal Khaled Alsabhan
+
+## Refrences
+[1] Prithvi Ragavendiran R and Surya Prabhakaran, “Road Accidents from CCTV Footages Dataset,” https://www.kaggle.com/dsv/7518784.
