@@ -1,4 +1,6 @@
-# Accident-Eye: Real-Time Road Accident Detection System Using Surveillance cameras.
+![WhatsApp Image 2025-01-27 at 17 54 07_70d08493](https://github.com/user-attachments/assets/f4c86ad7-5ccb-44c6-a99f-ff2630a08e76)
+
+# Accident-Eye: Real-Time Road Accident Detection System Using Surveillance Cameras.
 
 This repository contains the implementation of a **Accident-Eye**. The system is based on four different models: **YOLO, CNN**, and two hybrid approaches (**YOLO-XGBoost** and **CNN-XGBoost**). The project aims to enhance road safety by automating accident detection and severity classification.
 
@@ -21,7 +23,7 @@ Road accidents are a critical global issue, causing fatalities and long-term inj
 
 ## 📊 Dataset
 
-The dataset has acquisition from kaggle [1] and is divided into 4 classes:
+The dataset has acquisition from Kaggle [1] and is divided into 4 classes:
 1. **Accident Scenarios**:
    - Minor Impact
    - Substantial Impact
