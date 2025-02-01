@@ -46,7 +46,7 @@ The dataset has acquisition from Kaggle [1] and is divided into 4 classes:
 - **Description**: Focused on feature extraction and classification for accident detection.
 
 ### 3. YOLO-XGBoost
-- **Description**: Combines YOLO’s feature extraction with XGBoost for improved classification performance.
+- **Description**: Combines YOLO’s feature extraction with XGBoost for improved classification performance. ( coode need to download to preview due to its size)
 
 ### 4. CNN-XGBoost
 - **Description**: Combines CNN’s feature extraction with XGBoost for improved classification performance.
