@@ -62,7 +62,7 @@ The dataset has acquisition from Kaggle [1] and is divided into 4 classes:
 | YOLO-XGBoost      | 92.36           | 0.0260       | 0.2624          |
 | CNN-XGBoost       | 94.13           | 0.0133       | 0.1762          |
 
-**Detailed metrics**, including confusion matrices and performance charts, are available in the `results/` folder.
+**Detailed metrics**, including confusion matrices and performance charts.
 
 
 ## 👥 Contributors
